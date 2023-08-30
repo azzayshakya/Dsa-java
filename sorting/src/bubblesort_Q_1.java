@@ -3,7 +3,7 @@
 public class bubblesort_Q_1{
 
     public static void bubblesort(int arr[]){
-        
+
         for (int turn=0;turn<arr.length;turn++){
             for (int j=0; j<arr.length-1-turn;j++ ){
                 if (arr[j]>arr[j+1]){
