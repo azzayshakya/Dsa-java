@@ -1,5 +1,5 @@
 public class fibonaci_series {
-    public static int fib(int n){
+    public static int fib(int n){ 
         if (n==0||n==1){
             return n;
         }
@@ -12,6 +12,6 @@ public class fibonaci_series {
         return f;
     }
     public static void main(String[] args){
-        System.out.println(fib(25));
+        System.out.println(fib(10));
     }
 }
