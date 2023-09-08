@@ -1,5 +1,5 @@
 public class fibonaci_series {
-    public static int fib(int n){ 
+    public static int fib(int n){
         if (n==0||n==1){
             return n;
         }
