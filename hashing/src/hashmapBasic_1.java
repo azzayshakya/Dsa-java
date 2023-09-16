@@ -10,5 +10,10 @@ public class hashmapBasic_1 {
 
         System.out.println(hm);
 
+        int getoutput= hm.get("india");
+        System.out.println(getoutput);
+
+        
+
 }
 }
