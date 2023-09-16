@@ -22,22 +22,22 @@ public class hashmapBasic_1 {
         System.out.println("using contains function");
 
 
-//        System.out.println(hm.containsKey("india"));
-//        System.out.println(hm.containsKey("pakistan"));
-//
-//
-//        System.out.println("using  remove  functioen");
-//
-//
-//        System.out.println(hm.remove("dubai"));
-//        System.out.println(hm);
-//
-//
-//        System.out.println("using clear function");
-//        hm.clear();
-//        System.out.println(hm);
-//
-//
+        System.out.println(hm.containsKey("india"));
+        System.out.println(hm.containsKey("pakistan"));
+
+
+        System.out.println("using  remove  functioen");
+
+
+        System.out.println(hm.remove("dubai"));
+        System.out.println(hm);
+
+
+        System.out.println("using clear function");
+        hm.clear();
+        System.out.println(hm);
+
+
 
 
 
