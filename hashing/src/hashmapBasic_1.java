@@ -10,10 +10,39 @@ public class hashmapBasic_1 {
 
         System.out.println(hm);
 
-        int getoutput= hm.get("india");
-        System.out.println(getoutput);
+        System.out.println("using get functioen");
 
-        
+
+        int getoutput= hm.get("india");
+
+        System.out.println(getoutput);
+        System.out.println(hm.get("ajay"));
+
+
+        System.out.println("using contains function");
+
+
+//        System.out.println(hm.containsKey("india"));
+//        System.out.println(hm.containsKey("pakistan"));
+//
+//
+//        System.out.println("using  remove  functioen");
+//
+//
+//        System.out.println(hm.remove("dubai"));
+//        System.out.println(hm);
+//
+//
+//        System.out.println("using clear function");
+//        hm.clear();
+//        System.out.println(hm);
+//
+//
+
+
+
+
+
 
 }
 }
