@@ -3,7 +3,7 @@ public class basic_5 {
         if (n==1){
             return 1;
         }
-        NATURALsum(n-1)
+        NATURALsum(n-1);
 
         int nat=NATURALsum(n-1);
         int sum=n + nat;
