@@ -12,6 +12,8 @@ public class sum_of_n_natural_numbers {
         return sum;
     }
     public static void main(String[] args){
+
+
         System.out.println(NATURALsum(5));
 
     }
