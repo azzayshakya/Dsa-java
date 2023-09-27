@@ -1,20 +1,21 @@
 public class revision {
-    public static void recursion(int i) {
-        if(i==1){
-            System.out.println(i);
-
-            return;
-
+    public static int  recursion(int n) {
+        if(n==1){
+            return 1;
         }
 
-        System.out.println(i);
-        recursion(i-1);
+        recursion(n-1);
+        int fanm1=recursion(n-1);
+        int fn=n+fanm1;
+
+        return fn;
+
 
 
 
     }
     public static void main(String[] args) {
         System.out.println("ajay");
-        recursion(10);
+        System.out.println(recursion(10));
     }
 }
