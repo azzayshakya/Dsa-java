@@ -1,17 +1,20 @@
 public class revision {
-    public static void fibo(int n){
-        int num1=0;
-        int num2=1;
-        for(int i=1;i<=n;i++){
-            System.out.println(num1);
-            int sum = num1+num2;
-            num1=num2;
-            num2=sum;
-
+    public static int fibo(int n){
+        if(n==0 || n==1){
+            return n;
         }
+
+        fibo(n-1);
+        fibo(n-2);
+
+        int fnm1=fibo(n-1);
+        int fnm2 =fibo(n-2);
+
+        int f=fnm1+fnm2;
+        return f;
     }
 
     public static void main(String[] args) {
-        fibo(10);
+        System.out.println(fibo(10));
     }
 }
