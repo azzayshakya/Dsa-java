@@ -26,8 +26,10 @@ class shape{
 }
 class tringle extends shape{
     public int shape(int l,int h){
+
         System.out.println("this is ur trinle shape");
-        return 1/2*l*h;
+        System.out.println("this is ur trinle shape");
+            return 1/2*l*h;
     }
 }
 
