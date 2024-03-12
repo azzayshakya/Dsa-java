@@ -8,7 +8,7 @@ public class MethoOverriding {
         System.out.println(a+b+c);
     }
     public static void main(String[] args){
-        System.out.println("hey bitch");
+        System.out.println("hey ");
         add(4,5);
         System.out.println();
         add(2,4,8);
