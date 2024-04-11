@@ -1,34 +1,30 @@
 public class consucaiveones {
-    public static void  most_consecutive_ones (int arr[], int n){
-        int count = 0;
-        int maxcount=0;
-        for(int i =0;i<n;i++){
-
+    static int MCO(int arr [], int n ){
+        int count=0;
+        int maxC=0;
+        for(int  i=0;i<n;i++)
+        {
             if(arr[i]==1){
-                count++;
+                count ++;
             }
-            if(arr[i]!=1 && count>maxcount){
-                maxcount=count;
+            else{
                 count=0;
-                System.out.println("value of last"+ count);
             }
-            System.out.println();
+            maxC=Math.max(maxC,count);
         }
-//        System.out.println("last is "+ first);
-//        if(first<last){
-//            System.out.println(last);
-//        }
-//        if(first>last) {
-//            System.out.println(first);
-//        }
+        return maxC;
     }
+
+
 
 
     public static void main(String[] args) {
-        int arr[]={1,1,0,1,1,0,1,1,1,1,1,0};
-//        int arr[]={1,1,0,1,1,0,1,1,1,1,1,0,0,1,1};
+        int arr[]={1,1,1,1,1,1,0,0,0,0,1,1,0,0,1,1,1,1,1};
+        int n=arr.length;
+        System.out.println("the max consecutive ones in the array is "+ MCO(arr,n));
 
-        most_consecutive_ones(arr,arr.length);
+
 
     }
 }
+
