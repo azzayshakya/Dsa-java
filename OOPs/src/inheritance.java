@@ -41,10 +41,10 @@ public class inheritance {
         f1.greet();
 
         Son s1 = new Son();
-        s1.greet2();
+        s1.greet();
 
         Daughter d1 = new Daughter();
-        d1.greet3();
+        d1.greet();
 
         shape a1 = new shape();
         a1.l=5;
