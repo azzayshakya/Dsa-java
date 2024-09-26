@@ -11,8 +11,6 @@ public class pattern19 {
             for (int k = 0; k < n - i; k++) {
                 System.out.print("X");
             }
-
-
             System.out.println();
         }
         for(int i=0;i<n;i++){
@@ -26,12 +24,8 @@ public class pattern19 {
             for(int c=0;c<=i;c++){
                 System.out.print("X");
             }
-
             System.out.println();
         }
-
-
-
     }
     public static void main(String[] args){
         pattern(5);
