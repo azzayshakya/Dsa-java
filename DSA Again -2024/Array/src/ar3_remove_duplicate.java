@@ -3,7 +3,8 @@ public class ar3_remove_duplicate {
         int i =0;
         for(int j=0;j<n;j++){
             if(arr[i]!=arr[j]){
-                i++;
+
+                i++;   // so that first element always be printed
                 arr[i]=arr[j];
             }
         }
