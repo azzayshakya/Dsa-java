@@ -6,6 +6,7 @@ public class ar1_secound_largest_and_smallest {
             if(arr[i]<s){
                 sS=s;
                 s=arr[i];
+
             } else if (arr[i]<sS && arr[i]!=s) {
                 sS=arr[i];
             }
@@ -29,7 +30,6 @@ public class ar1_secound_largest_and_smallest {
         }
         System.out.println("the largest value is "+ l);
         System.out.println("and the secound largest value is this " + sl);
-
     }
 
     public static  void main(String[] args) {
@@ -37,6 +37,5 @@ public class ar1_secound_largest_and_smallest {
         int n=arr.length;
         ssmallest(arr,n);
         slargest(arr,n);
-
     }
 }
