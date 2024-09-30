@@ -5,6 +5,13 @@ public class ar5_left_rotate_by_one_place {
             arr[i-1]=arr[i];
         }
         arr[n-1]=temp;
+
+//        for(int i=1;i<n;i++) {
+//            int temp = arr[i];
+//            arr[i]=arr[i-1];
+//            arr[i-1]=temp;
+//        }
+
         for (int k=0;k<n;k++ ){
             System.out.print(arr[k]+" ");
         }
