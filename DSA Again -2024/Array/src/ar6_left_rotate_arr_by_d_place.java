@@ -1,5 +1,20 @@
 public class ar6_left_rotate_arr_by_d_place {
+    static void LeftRotateByDPlace(int n, int arr[], int D) {
+        for(int k=0;k<D;k++){
+            for(int i =0;i<n-1;i++){
+                int temp=arr[i];
+                arr[i]=arr[i+1];
+                arr[i+1]=temp;
+            }
+        }
+        for(int j=0;j<n;j++) {
+            System.out.print(arr[j] + " ");
+        }
+    }
     public static void main(String[] args) {
+        int arr[]={1,5,7,8,9};
+        int Dpalce=4;
+        LeftRotateByDPlace(arr.length,arr,Dpalce);
 
     }
 }
