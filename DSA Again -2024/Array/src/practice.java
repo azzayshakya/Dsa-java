@@ -6,7 +6,7 @@ public class practice {
                 arr[i]=arr[i+1];
                 arr[i+1]=temp;
             }
-//            type -2
+//            type - 02
 //            for(int k=0;k<D;k++){
 //                int temp=arr[0];
 //                for(int i =1;i<n;i++){
