@@ -1,4 +1,4 @@
-public class a_23_find_misising_and_repeating {
+public class ar23_find_misising_and_repeating {
     static void FMAR(int arr[],int n){
 //        int missingel=-1;
 //        int repeatedel=-1;

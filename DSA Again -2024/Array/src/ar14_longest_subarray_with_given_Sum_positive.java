@@ -1,6 +1,6 @@
 import org.w3c.dom.ls.LSOutput;
 
-public class A14_longest_subarray_positive {
+public class ar14_longest_subarray_with_given_Sum_positive {
 
     static int LongesSubarray(int arr[] ,int target){
         int n =arr.length;

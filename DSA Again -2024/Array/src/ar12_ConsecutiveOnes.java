@@ -1,4 +1,4 @@
-public class consucaiveones {
+public class ar12_ConsecutiveOnes {
     static int MCO(int arr [], int n ){
         int count=0;
         int maxC=0;

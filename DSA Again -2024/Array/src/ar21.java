@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class a_21 {
+public class ar21 {
     static List<List<Integer>> threesum(int arr[],int n){
         List<List<Integer>> ans =new  ArrayList<>();
 

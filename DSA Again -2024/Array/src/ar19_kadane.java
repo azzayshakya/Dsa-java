@@ -1,4 +1,4 @@
-public class a_19_kadane {
+public class ar19_kadane {
     static int kadane(int arr[] ,int n){
 //        int ans=Integer.MIN_VALUE;
 //        for(int i=0; i<n;i++){

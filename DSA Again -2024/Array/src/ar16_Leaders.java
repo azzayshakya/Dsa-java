@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class a_16_Leaders {
+public class ar16_Leaders {
     static ArrayList<Integer> leaders(int arr[], int n){
         ArrayList<Integer> ans =new  ArrayList<>();
         int cmax=Integer.MIN_VALUE;

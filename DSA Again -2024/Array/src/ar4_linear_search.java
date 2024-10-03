@@ -1,4 +1,4 @@
-public class arr4_linear_search {
+public class ar4_linear_search {
     static void LinearS(int arr[] , int n, int target){
         for(int i =0;i<n;i++){
             if(arr[i]==target){

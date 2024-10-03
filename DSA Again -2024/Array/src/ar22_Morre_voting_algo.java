@@ -1,4 +1,4 @@
-public class a_22_Morre_voting_algo {
+public class ar22_Morre_voting_algo {
     static int MVA(int arr[],int n){
         int el=0;
         int count=0;

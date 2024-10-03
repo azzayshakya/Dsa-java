@@ -1,4 +1,4 @@
-public class A15_2SUM {
+public class ar15_2SUM {
     static int[] twosum(int arr[],int target){
         int sum=0  ;
         int ans[]=new int[2];

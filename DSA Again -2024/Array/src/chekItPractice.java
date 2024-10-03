@@ -1,4 +1,4 @@
-public class practice {
+public class chekItPractice {
     static void LeftRotateByDPlace(int n, int arr[], int D) {
         for(int k=0;k<D;k++){
             for(int i =0;i<n-1;i++){
