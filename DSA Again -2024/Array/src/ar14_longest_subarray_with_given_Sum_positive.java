@@ -21,8 +21,8 @@ public class ar14_longest_subarray_with_given_Sum_positive {
         return len;
     }
     public static void main(String[] args) {
-       int arr[] ={-1, 1, 1,2,1,1,0,1};
-       int target=1;
+       int arr[] ={1,5,5,2,3,5,10,1,9};
+       int target=13;
        int ans= (LongesSubarray(arr,target));
         System.out.println(ans);
 
