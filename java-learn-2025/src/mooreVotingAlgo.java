@@ -3,7 +3,6 @@ public class mooreVotingAlgo {
          int count=0;
          int el=0;
          for(int i =0 ;i<arr.length; i++){
-
              if(count==0){
                  el=arr[i];
              }
@@ -26,8 +25,6 @@ public class mooreVotingAlgo {
          else {
              return -1;
          }
-
-
      }
     public static  void main(String [] args){
         System.out.println("Moor's voting algo for the n/2 elements appearence");
